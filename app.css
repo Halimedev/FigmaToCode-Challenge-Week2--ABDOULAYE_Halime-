@@ -53,7 +53,7 @@ max-width: 150px;
     background-color:crimson;
 }
 #manequin {
-    float: right;
+    float: left;
   
 }
 
@@ -327,7 +327,7 @@ flex-shrink: 0;
 }
 .btnSub{
     border: 1px solid black; 
-    border-top: none; 
+    
     border-left: none;
     border-right: none;
     padding: 8px;
@@ -421,8 +421,29 @@ gap: 12px;
     body{
         align-items: center;
     }
+    .container{
+        display:inline;
+    }
+    .sec_droite{
+        align-items: center;
+        display: inline;
+        
+    }
+    .container .para{
+        .container{
+            display: inline;
+            justify-content:space-between;
+            align-items: center;
+        }
+        
+    }
+    .manequin img{
+        float:left;
+         
+    }
     .entete a{
         font-size: 10px;
+        display: none;
     }
     .pI img  {
         display: inline-block;
@@ -436,10 +457,11 @@ gap: 12px;
     .gal2{
         justify-content: center;
     }
+    
     .R3{
         align-items: center;
-        width: 70%;
-        height: 100%;
+        width: 150%;
+        height: 50%;
     }
     .text{
         display: none;
@@ -451,7 +473,7 @@ gap: 12px;
         display: inline-block;
     }
     .see{
-        margin-top: -10%;
+        margin-top: 10px%;
     }
     .Tzara p{
             font-size: 10px;
