@@ -327,7 +327,7 @@ flex-shrink: 0;
 }
 .btnSub{
     border: 1px solid black; 
-    
+    border-top: none;
     border-left: none;
     border-right: none;
     padding: 8px;
@@ -420,47 +420,60 @@ gap: 12px;
 @media (max-width: 767px) {
     body{
         align-items: center;
+        text-align: left; 
+        margin: 0 auto; 
+        max-width: 80%; 
     }
     .container{
         display:inline;
     }
     .sec_droite{
         align-items: center;
-        display: none;
+        display: flex;
+
         
     }
-    .container .para{
-        .container{
+    .container{
             display: inline;
             justify-content:space-between;
             align-items: center;
-        }
-        
     }
+    
     .manequin img{
         float:left;
          
     }
+    #entete h1 {
+        align-items:center;
+    }
     .entete a{
         font-size: 10px;
-        display: none;
+        display: inline;
+        justify-content: flex-start;
+        margin-right: 5px;
     }
     .pI img  {
-        display: inline-block;
-        margin-left: -50px;
         align-items: center;
-    }
-    .grI  {
-        
-        margin-left: -50px;
+        text-align: left; 
+        margin: 0 auto; 
+        max-width: 100%;
+     }
+    .grI {
+        align-items: center;
+        text-align: left; 
+        margin: 0 auto; 
+        max-width: 100%; 
     }
     .gal2{
         justify-content: center;
     }
-    .gal3 .mer img {
-        display: block; /* Change to 'block' for stacked images on smaller screens */
-        width: 100%; /* Make images take up full width of the container */
-        margin-bottom: 10px; /* Optional: Add some spacing between stacked images */
+    .gal2 h1{
+        font-size: 20px;
+    }
+    .gal3 .mer img{
+        display:inline; 
+        width: 100%; 
+        margin-bottom: 10px; 
     }
     
     .R3{
