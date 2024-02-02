@@ -239,6 +239,9 @@ height: 312px;
     background-color:#000;
     height: 600px;
 }
+.see button:hover{
+    background-color:crimson;
+}
 .Tzara{
     color: white;
 font-size: 26px;
@@ -279,8 +282,6 @@ align-items: center;
     text-align: center;
     font-size: 70px;
 }
-
-
 
 .mer{
     position: relative;
@@ -464,8 +465,13 @@ gap: 12px;
         margin: 0 auto; 
         max-width: 100%; 
     }
+    #bh2{
+        font-size: 30px;
+        margin-top: 20px;
+    }
     .gal2{
         justify-content: center;
+        margin-top: 20px;
     }
     .gal2 h1{
         font-size: 20px;
@@ -475,11 +481,22 @@ gap: 12px;
         width: 100%; 
         margin-bottom: 10px; 
     }
+
     
     .R3{
         align-items: center;
-        width: 150%;
+        width: 230%;
         height: 50%;
+        margin-top: 20px;
+    }
+    .insta img{
+        float: left;
+    }
+    #Tinsta{
+        margin-top: 10px;
+        font-size: 14px;
+        
+        margin-left: -300px;
     }
     .text{
         display: none;
@@ -511,9 +528,33 @@ gap: 12px;
         transition: opacity 0.3s ease-in-out;
         
     }
-    .desc{
-        display: inline;
+    #desc .container {
+        text-align: center;
+        
+    }
+    #desc .container a{
+        justify-content: center;
+        margin-left: 120px;
     }
 
+    #desc .row {
+        flex-direction: column; 
+       
+    }
 
-}
+    #desc .col-4,
+    #desc .col-2 {
+        width: 40%; 
+        margin-bottom: 20px; 
+    }
+    #desc img.img-fluid {
+        width: 100%; 
+    }
+    .btnSub{
+        font-size: 20px;
+    }
+    .Cinput{
+        font-size: 20px;
+    }
+    
+    }
